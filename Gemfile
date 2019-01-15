@@ -19,4 +19,10 @@ group :test do
   gem 'activerecord', '4.2.5'
   gem 'sinatra-activerecord'
   gem 'rake'
+  
+  group :development do
+        gem 'shotgun'
+        gem 'pry'
+        gem 'tux'
+        gem 'sqlite3'
 end
