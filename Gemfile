@@ -15,4 +15,8 @@ group :test do
   gem 'rspec'
   gem 'capybara'
   gem 'rack-test'
+  
+  gem 'activerecord', '4.2.5'
+  gem 'sinatra-activerecord'
+  gem 'rake'
 end
